@@ -1,5 +1,7 @@
 const express=require('express')
 const mongoose=require('mongoose')
+const dotenv=require('dotenv')
+dotenv.config()
 
 const app=express()
 const cors=require('cors')
@@ -10,7 +12,8 @@ const mailRoute=require("./routes/mailRoute")
 
 const connect=async()=>{
     try {
-       const res= await mongoose.connect("mongodb+srv://anuragkumar959593:shoes@shoes.ty02c.mongodb.net/")
+        // console.log(process.env.MONGOURI)
+       const res= await mongoose.connect(process.env.MONGOURI)
         if(res)
             console.log("connected...")
     } catch (error) {
