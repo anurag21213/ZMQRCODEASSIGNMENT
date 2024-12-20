@@ -6,7 +6,7 @@ export const products = [
     {
         id: 1,
         name: 'Nike',
-        href: '#',
+        
         imageSrc: s1,
         imageAlt: "Front of men's Basic Tee in black.",
         price: '$35',
@@ -15,7 +15,7 @@ export const products = [
     {
         id: 2,
         name: 'xyz',
-        href: '#',
+        
         imageSrc: s2,
         imageAlt: "Front of men's Basic Tee in black.",
         price: '$35',
@@ -24,7 +24,7 @@ export const products = [
     {
         id: 3,
         name: 'Basic Tee',
-        href: '#',
+        
         imageSrc: s1,
         imageAlt: "Front of men's Basic Tee in black.",
         price: '$35',
@@ -33,7 +33,7 @@ export const products = [
     {
         id: 4,
         name: 'Basic Tee',
-        href: '#',
+        
         imageSrc: s2,
         imageAlt: "Front of men's Basic Tee in black.",
         price: '$35',
@@ -42,7 +42,7 @@ export const products = [
     {
         id: 5,
         name: 'Nike',
-        href: '#',
+        
         imageSrc: s1,
         imageAlt: "Front of men's Basic Tee in black.",
         price: '$35',
@@ -51,7 +51,7 @@ export const products = [
     {
         id: 6,
         name: 'Basic Tee',
-        href: '#',
+        
         imageSrc: s2,
         imageAlt: "Front of men's Basic Tee in black.",
         price: '$35',
